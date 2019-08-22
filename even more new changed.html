@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>
+     JOHN TRAVOLTA YAY
+   </title>
+ </head>
+ <style>
+ body{
+   background-image: url("john.jpg");
+   background-repeat: repeat;
+ }
+.blink_me {
+   -webkit-animation-name: blinker;
+   -webkit-animation-duration: 2s;
+   -webkit-animation-timing-function: linear;
+   -webkit-animation-iteration-count: infinite;
+
+   -moz-animation-name: blinker;
+   -moz-animation-duration: 2s;
+   -moz-animation-timing-function: linear;
+   -moz-animation-iteration-count: infinite;
+
+   animation-name: blinker;
+   animation-duration: 2s;
+   animation-timing-function: linear;
+   animation-iteration-count: infinite;
+ color: yellow;
+ font-family: "Comic Sans MS", "Comic Sans", cursive;
+ font-size:50px;
+}
+
+@-moz-keyframes blinker {
+   0% { opacity: 1.0; }
+   50% { opacity: 0.0; }
+   100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes blinker {
+   0% { opacity: 1.0; }
+   50% { opacity: 0.0; }
+   100% { opacity: 1.0; }
+}
+
+@keyframes blinker {
+   0% { opacity: 1.0; }
+   50% { opacity: 0.0; }
+   100% { opacity: 1.0; }
+}
+
+table {
+   border: 16px outset yellow;
+   elevation: 5        /* the _border_ elevation */
+ background-color: yellow;
+ color: yellow;
+ }
+
+
+td, th {
+   border: 0px solid;
+   elevation: -1
+}
+</style>
+<body>
+<table>
+<tbody><tr>
+<td> <div class="blink_me">JOHN "DADDY" TRAVOLTA IS VERY TASTE MAN</div></td>
+</tr>
+</tbody></table>
+<a href=mailto:ryan.geyer@students.jmcss.org>
+  <img src=email.gif>
+</a>
+<img src=whale.gif>
+<img src=ohyeah.gif>
+<img src=haxx.gif>
+</html>
